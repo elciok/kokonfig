@@ -1,0 +1,6 @@
+development:
+  color: purple
+  id: 89765
+production:
+  color: red
+  id: 2

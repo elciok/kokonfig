@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'kokonfig'
+Kokonfig::CLI.start

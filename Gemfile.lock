@@ -1,0 +1,44 @@
+PATH
+  remote: .
+  specs:
+    kokonfig (0.1.0)
+      erb (~> 2.2)
+      fileutils (~> 1.4)
+      ostruct (~> 0.3)
+      pathname (~> 0.1)
+      yaml (~> 0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    erb (2.2.0)
+    fileutils (1.4.1)
+    ostruct (0.3.1)
+    pathname (0.1.0)
+    rake (12.3.3)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.0)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.0)
+    yaml (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kokonfig!
+  rake (~> 12.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.1.4
