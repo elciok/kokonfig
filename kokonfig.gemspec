@@ -6,8 +6,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Elcio Nakashima"]
   spec.email         = ["elciok@gmail.com"]
 
-  spec.summary       = %q{Generates files for multiple environment based on ERB templates.}
-  # spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Kokonfig is a command line utility that generates multiple versions of files based on ERB templates and data YAML files.}
+  spec.description   = <<~DESCRIPTION
+    Kokonfig is a command line utility that generates multiple versions of files based on ERB templates and data YAML files.
+
+    Kokonfig can be used to generate config files for each environment in your application, when each config mostly contains the same structure but values depend on the environment. It can also be useful when config files contain several repeated values.
+  DESCRIPTION
   spec.homepage      = "https://github.com/elciok/kokonfig"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
@@ -19,10 +23,10 @@ Gem::Specification.new do |spec|
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   spec.add_dependency "erb", "~> 2.2"
-  spec.add_dependency "fileutils", "~> 1.4"
-  spec.add_dependency "ostruct", "~> 0.3"
-  spec.add_dependency "pathname", "~> 0.1"
-  spec.add_dependency "yaml", "~> 0.1"
+  # spec.add_dependency "fileutils", "~> 1.4"
+  # spec.add_dependency "ostruct", "~> 0.3"
+  # spec.add_dependency "pathname", "~> 0.1"
+  # spec.add_dependency "yaml", "~> 0.1"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
